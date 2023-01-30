@@ -4,7 +4,7 @@ A Zoom session is a client's (user) session to Zoom. It consists of
 a group of Zoom connections from the same client, all within a specific time duration and attributable to a single session. Every session consists of one persistent TCP connection to an MMR server, with possibly at least one UDP connection to the same MMR (depending on the client's connectivity method) and more TCP connections to other server types for different purposes.
 A Zoom meeting is between at least two clients (sessions) serviced by a single Multimedia Router (MMR).
 
-This code's input is the log file's name in the current directory. The log file contains all the connections to Zoom. The format of this file must follow Vertica's standard output (delimiter: '$\vert$') analyzing Zeek's logs. Fields must be as the following:
+This code's input is the log file's name in the current directory. The log file contains all the connections to Zoom. The format of this file must follow Vertica's standard output (delimiter: '|') analyzing Zeek's logs, otherwise appropriate changes in the code would be necessary. Fields must be as the following:
 
 - epoch time
 - originator's IP address
