@@ -1,0 +1,9 @@
+.DS_Store
+.vscode/
+.idea/ 
+authentication.js
+node_modules
+outputs/
+logs/
+notes/
+**/*-todo.md
