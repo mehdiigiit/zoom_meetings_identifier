@@ -44,8 +44,6 @@ In this iteration, we only look at connections to MMRs.
 The following, shows the summary part of the result of this code, running on the Conn logs to Zoom on September 22, 2021, at 1:00 PM. 
 
 ```
-
->>>>>>> refs/remotes/origin/main
 Rows in the input file =  87116
 Unique clients identified =  2016
 Unique client IPs =  326
@@ -70,5 +68,4 @@ Top 10 meetings with highest participation count:
 GPVPN (136.159.199 subnet) TCP sessions =  193
 GPVPN (136.159.199 subnet) ICMP sessions =  606
 GPVPN (136.159.199 subnet) other sessions =  0 
-
 ```
