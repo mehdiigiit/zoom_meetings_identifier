@@ -267,7 +267,7 @@ def zoom_conns_parser():
         # At the end of the iteration, if there was any user for this meeting (which must be at least 1 I suppose!),
         # then append it to the list of all meetings.
         if usersOfMMR > 0:
-            allMMRs.append({'meeting': thisMMR, '#_of_users': usersOfMMR, 'start': thisStartTime, 'end': thisEndTime})
+            allMMRs.append({'MMR': thisMMR, '#_of_users': usersOfMMR, 'start': thisStartTime, 'end': thisEndTime})
 
         # Replacing rows1 by rows2 of the remaining sessions for the next iteration.
         del rows1
